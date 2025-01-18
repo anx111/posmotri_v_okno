@@ -81,8 +81,8 @@ ol {
 
 .result__video-container {
   position: relative;
-  block-size: 390px;
-  inline-size: 710px;
+  block-size: 386px;
+  inline-size: 711px;
 }
 
 .result__video {
@@ -199,9 +199,14 @@ ol {
   outline-offset: 1px;
 }
 
-.search-form__label:hover {
+.search-form__label:hover .search-form__label-text {
   text-decoration: underline;
   text-underline-offset: 4px;
+}
+
+.search-form__label:hover input,
+.search-form__label:hover textarea {
+    text-decoration: none; /* Для предотвращения подчёркивания текста внутри input */
 }
 
 .search-form__textfield {
@@ -217,10 +222,6 @@ ol {
 }
 
 .search-form__textfield:focus {
-  outline: none;
-}
-
-.search-form__textfield:focus-visible {
   outline: none;
 }
 
