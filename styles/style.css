@@ -204,8 +204,7 @@ ol {
   text-underline-offset: 4px;
 }
 
-.search-form__label:hover input,
-.search-form__label:hover textarea {
+.search-form__label:hover input {
     text-decoration: none; /* Для предотвращения подчёркивания текста внутри input */
 }
 
